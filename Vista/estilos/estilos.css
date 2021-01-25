@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.col-md-1{width: 8.33%;}
+.col-md-2{width: 16.66%;}
+.col-md-3{width: 25%;}
+.col-md-4{width: 33.33%;}
+.col-md-5{width: 41.66%;}
+.col-md-6{width: 50%;}
+.col-md-7{width: 58.33%;}
+.col-md-8{width: 66.66%;}
+.col-md-9{width: 75%;}
+.col-md-10{width: 83.33%;}
+.col-md-11{width: 91.66%;}
+.col-md-12{width: 100%;}
+
+[class*="col-md"]{
+    float: left;
+    padding: 0.1rem 0 0 0; 
+}
+
+/*---------------------------header-------------------------*/
+#header-container{
+   background-color: rgba(220, 220, 220, .5);
+}
+.icon-header img{
+    width: 9.0rem;
+    margin-left: .3rem;
+}
+.second-icon-header{
+    display: flex;
+    justify-content: flex-end;
+}
+.second-icon-header img{
+    width: 8.7rem;
+    margin-right: .3rem;
+}
+
+/*---------------------------nav----------------------------*/
+#nav-header{
+   background-image: linear-gradient(rgb(30,30,30),
+                                       rgb(50,50,50),
+                                       rgb(30,30,30));
+}
+.logo-img img{
+    width: 5rem;
+}
+.img-avatar{
+    display: flex;
+    justify-content: flex-end;
+}
+.img-avatar img{
+    width: 3.4rem;
+    margin: .8rem .8rem;
+    border-radius: 50%;
+    border: 1px solid rgb(59, 59, 59);
+}
+.btn-dropdowns{
+    margin: 1.5rem 0;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.date-values{
+    color: black;
+    font-size: 1.4rem;
+}
+
+.nav-menu ul{
+   display: flex;
+   justify-content: flex-end;
+}
+.nav-menu li{
+    margin: 1rem 1rem;
+    padding: .6rem;
+    list-style: none;
+}
+.nav-menu li:hover{
+   background-color: rgb(50, 50, 50);
+}
+.nav-menu a{
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+}
+.btn-res,.label-res{
+    display: none;
+}
+.fa, .fas {
+   color: transparent;
+}
+
+/*--------------------------section-------------------------*/
+
+#article-section img{
+    width: 100%;
+    padding: 1rem;
+}
+.text-article-img{
+    position: absolute;
+    bottom: .7rem;
+    text-align: center;
+    margin-left: 2rem;
+    width: 60.0rem;
+    color: white;
+}
+#aside-section {
+    background-image: url("https://s3-us-west-2.amazonaws.com/sintec-uploads/wp-content/uploads/2019/07/02124347/SAP-DDM-II-1.jpg");
+    background-position: center;
+    width: 46.5rem; 
+    height:  40.7rem;
+    margin-top: 1rem;
+}
+.title-aside{
+    text-align: center;
+    margin-top: 1.5rem;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.subtitle-aside{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.time{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    color: white;
+}
+.parrafo-aside{
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.btn-aside-one{
+    display: flex;
+    justify-content: center;
+}
+.btn-aside{
+    padding: .8rem;
+    background-color: rgb(0, 100, 255);
+    color: white;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.article-description img{
+    width: 30%;
+}
+.header-description{
+    background-image: radial-gradient(rgb(220,220,220),
+                                      rgb(240,240,250),
+                                      rgb(230,230,230));
+    padding: 1.2rem;
+    border-radius: 2%;
+}
+.header-description a{
+    color: rgb(121, 151, 252);
+    font-size: 1.5rem;
+    font-weight:500;
+    text-decoration: none;
+}
+.title-description img{
+    width: 15%;
+    margin: .5rem;
+}
+.title-description h4{
+    text-align: left;
+    margin: .8rem 1rem .8rem 2rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.aside-description-img img{
+    width: 100%;
+    padding: .7rem;
+}
+.list-description-item{
+    margin-top: .7rem;
+}
+.list-description-item ol{
+    margin-left: 2.0rem;
+}
+.title-list-description{
+    background-color: rgba(185, 183, 181, 0.2);
+    padding: .4rem;
+    border-radius: .1rem;
+    margin: .7rem;
+    font-size: 1.5rem;
+    color: rgb(100, 99, 99);
+}
+.description-space{
+    padding: .5rem;
+}
+/*--------------------------footer---------------------------*/
+#footer{
+    background-color: rgb(59, 59, 59);
+}
+.title-footer{
+padding: .7rem .5rem;
+
+}
+.title-footer a{
+ font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+#footer a:hover{
+    background-color: rgb(71, 71, 71);
+}
+#footer a{
+    color: white;
+}
+.footer-content{
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+}
+.footer-content ul{
+    padding: .1rem;
+    margin-left: 1.5rem;
+}
+.footer-content li{
+    color: white;
+}
+.footer-content li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: right;
+}
+.footer-social{
+    margin-left: .5rem;
+}
+.footer-social li{
+    display: inline-block;
+  list-style: none;
+  margin-left: .8rem;
+}
+.footer-social li a{
+  font-size: 2.5rem;
+}
+.footer-info{
+    margin-left: 1.5rem;
+}
+.footer-info ul{
+   margin-left: 1.5rem;
+}
+.footer-info li{
+    padding: .2rem;
+    color: white;
+}
+.footer-info  li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+}

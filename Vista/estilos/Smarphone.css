@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.col-ms-1{width: 8.33%;}
+.col-ms-2{width: 16.66%;}
+.col-ms-3{width: 25%;}
+.col-ms-4{width: 33.33%;}
+.col-ms-5{width: 41.66%;}
+.col-ms-6{width: 50%;}
+.col-ms-7{width: 58.33%;}
+.col-ms-8{width: 66.66%;}
+.col-ms-9{width: 75%;}
+.col-ms-10{width: 83.33%;}
+.col-ms-11{width: 91.66%;}
+.col-ms-12{width: 100%;}
+
+[class*="col-md"]{
+    float: left;
+    padding: 1.5rem;
+}
+/*----------------------------nav---------------------------*/
+.fa, .fas{
+    color: rgb(78, 78, 78);
+    font-size: 2.9rem;
+    width: 2.7rem;
+    text-align: center;
+}
+#nav-header-resposive{
+    display: none;
+    
+}
+#nav-header{
+    background-image: linear-gradient(rgba(220,200,220,.5),
+                                        rgba(220,220,220,.5),
+                                        rgba(220,220,220,.5));
+    padding: .5rem 0 0 .5rem ;  
+    
+}
+
+input:checked ~ #nav-header-resposive{
+    display: block;
+}
+.btn-res{
+    display: none;
+}
+.nav-logo, .espace,.img-avatar{
+    display: none;
+}
+.nav-menu{
+    padding: .2rem .1rem;
+}
+.nav-menu a{
+    color: white;
+}
+.nav-menu ul{
+   position: absolute;
+   display: inline-block;
+   border: 1px solid rgb(122, 121, 121);
+   border-radius: .5rem;
+   background-color: rgb(60, 60, 60);
+   width: 15.0rem;  
+}
+.nav-menu li{
+    border: 1px solid rgb(151, 149, 149);
+    border-radius: .5rem;
+    margin: .4rem .4rem;
+    padding: .6rem;
+    list-style: none;
+}
+.label-res{
+  display: inline-block;
+  border: 1px solid rgb(231, 235, 251);;
+  border-radius: 5px;
+  padding-top: .3rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  background-color: rgb(231, 235, 231);
+}
+
+/*---------------------------header-------------------------*/
+#header-container{
+    background-color: rgba(220, 220, 220, .5);
+    padding: .5rem;
+ }
+ .icon-header{
+    padding:0;
+    margin-top: .9rem;
+ }
+ .icon-header img{
+     width: 4.0rem;
+ }
+ .second-icon-header{
+     display: flex;
+     justify-content: flex-end;
+     padding:0;
+     margin-top: .7rem;
+ }
+ .second-icon-header img{
+     width: 2.7rem;
+      border-radius: 50%;
+ }
+ .icon-header1{
+     margin-top: 1.3rem;
+ }
+ /*------------------------section--------------------------*/
+ #article-section{
+     border: 1px dotted rgb(255, 200, 255) ;
+     margin: 0;
+ }
+ #article-section img{
+    width: 100%;
+    padding: 0;
+}
+.text-article-img{
+    position: absolute;
+    top: 15rem;
+    text-align: center;
+    right: 3.0rem;
+    padding: 1.5rem;
+    width: auto;
+    color: white;
+}
+
+.header-description{
+    padding: 1.1rem;
+    border-radius: 2%;
+}
+.title-description{
+    padding: .2rem;
+}
+.title-description img{
+    width: 20%;  
+    margin-top: 1rem;
+}
+.title-description h4{
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.0rem;
+}
+.description-space{
+    padding: 0;
+}
+
+ /*---------------------------aside--------------------------*/
+ 
+ #aside-section {
+    background-image: url("https://s3-us-west-2.amazonaws.com/sintec-uploads/wp-content/uploads/2019/07/02124347/SAP-DDM-II-1.jpg");
+    background-position: center;
+    margin-top: 1rem;
+    width: auto;
+}
+.title-aside{
+    text-align: center;
+    margin-top: 1.2rem;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.subtitle-aside{
+    text-align: center;
+    margin-top: 1.3rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.time{
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 2rem;
+    color: white;
+}
+.parrafo-aside{
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
