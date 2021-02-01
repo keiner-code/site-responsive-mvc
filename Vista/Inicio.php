@@ -66,7 +66,15 @@ $h4_parrafo= "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil no
               distinctio itaque doloribus! Distinctio ut , minima dolorem!";
 
 $ini->Template_html("Inicio");
-$ini->Template_nav("./Modelo/img/avatar.png","sin nombre","admin");
+$ini->Template_nav("./Modelo/img/avatar.png","Iniciar Session","admin",false);
 $ini->Template_header();
 $ini->Template_section("./Modelo/img/img-section.jpeg",$parrafo,"Costoso Falcom",$parrafo_aside,"Titulo De La Portada",$h4_parrafo);
 $ini->Template_footer();
+
+require_once("Controlador/ControlUsers.php");
+require_once("Modelo/Users.php");
+$users = new Users();
+$UserControl = new ControlUsers();
+$res = $UserControl->ShowUsers('12345');
+
+//var_dump($res[0]->getName_Users());

@@ -5,13 +5,13 @@ class Users{
      private $Identification_Card;
      private $Type_Users;
 
-  public function __construct($img_user,$Name,$Identification,$Type_user)
+  /*public function __construct($img_user,$Name,$Identification,$Type_user)
   {
       $this->img_users = $img_user;
       $this->Name_users = $Name;
       $this->Identification_Card = $Identification;
       $this->Type_Users = $Type_user;
-  }
+  }*/
   
   public function __construct()
   {
